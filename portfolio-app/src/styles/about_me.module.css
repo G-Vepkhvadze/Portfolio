@@ -1,0 +1,93 @@
+.about_me {
+  display: flex;
+  flex-direction: row;
+  height: 1210px;
+}
+
+.about_me_left {
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+}
+
+.about_me_wrapper {
+  display: flex;
+  margin: 5%;
+  margin-left: 15%;
+}
+
+.image_wrapper {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgb(255, 255, 255);
+  backdrop-filter: blur(6px);
+  align-items: center;
+  transition-duration: 0.3s;
+  z-index: 1;
+  padding: 30px;
+  width: 610px;
+}
+
+.about_me_name {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "GT Ultra Fine";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about_me_occupation {
+  font-family: "Bariol Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  text-align: center;
+  color: rgb(40, 185, 112);
+  margin-bottom: 20px;
+}
+
+.about_me_image {
+  border: 1px solid white;
+  width: 540px;
+  height: 719px;
+}
+
+.image_wrapper:hover {
+  background: rgba(114, 114, 114, 0.295);
+}
+
+.about_me_right {
+  width: 50%;
+}
+
+.about_me_header {
+  font-family: "GT_Ultra";
+  font-size: 200px;
+  text-align: end;
+  color: rgb(255, 255, 255);
+}
+
+.highlight {
+  color: rgb(40, 185, 112);
+}
+
+.about_me_resume {
+  padding: 32px 40px;
+  border: 1px solid #fffcfe;
+  backdrop-filter: blur(6px);
+  font-family: "Bariol Serif";
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  font-family: "Bariol Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
