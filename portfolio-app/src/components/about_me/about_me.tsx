@@ -23,15 +23,19 @@ export default function About_Me() {
             </div>
             <div className={styles.about_me_resume}>
               I'm a developer with{" "}
-              <a className={styles.highlight}>3 years of experience</a> with
+              <a className={styles.highlight}>3 Years of Experience</a> with
               building websites and web applications, with a good eye for{" "}
-              <a className={styles.highlight}>user experience and design.</a> My
-              best abilities lie in frontend development but I am able to work
-              in backend as well if needed. Eager to learn new technologies and
-              methods. <br />
-              <br />
-              Other than all this, I'm friendly and{" "}
-              <a className={styles.highlight}>easy to communicate with.</a>
+              <a className={styles.highlight}>User Experience and Design.</a>
+            </div>
+            <div className={styles.about_me_resume}>
+              My best abilities lie in{" "}
+              <a className={styles.highlight}>Front-End Development</a> but I am
+              able to work in backend as well if needed. Eager to learn new
+              technologies and methods. <br />
+            </div>
+            <div className={styles.about_me_resume}>
+              I'm friendly and{" "}
+              <a className={styles.highlight}>Easy to Communicate With.</a>
               Additionally I'm able to communicate problems clearly and
               efficiently.
             </div>
