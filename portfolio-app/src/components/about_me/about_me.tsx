@@ -1,7 +1,6 @@
 import styles from "@/styles/about_me.module.css";
 import Image from "next/image";
-import Vepkhvadze from "@/assets/Vepkhvadze.jpg";
-import Sunman from "@/assets/Sunman.png";
+import Vepkhvadze from "@/assets/images/Profile-Picture.jpg";
 
 export default function About_Me() {
   return (
@@ -13,7 +12,7 @@ export default function About_Me() {
               <div className={styles.about_me_name}>Giorgi Vepkhvadze</div>
               <div className={styles.about_me_occupation}>Web Developer</div>
               <div className={styles.about_me_image}>
-                <Image src={Sunman} alt="" />
+                <Image src={Vepkhvadze} alt="" />
               </div>
             </div>
           </div>
