@@ -6,7 +6,7 @@ import Sunman from "@/assets/Sunman.png";
 export default function About_Me() {
   return (
     <>
-      <div className={styles.about_me}>
+      <div className={styles.about_me} id="about_me_section">
         <div className={styles.about_me_wrapper}>
           <div className={styles.about_me_left}>
             <div className={styles.image_wrapper}>
